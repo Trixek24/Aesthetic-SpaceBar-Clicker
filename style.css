@@ -1,0 +1,25 @@
+body{
+    background-image: url("Spring_Landscape.png");
+    background-size: cover;
+}
+
+#header{
+    color: white;
+    font-size:60px;
+}
+
+#score{
+    color: black;
+    font-size: 55px;
+    border-style: outset;
+    width: 150px;
+    height: 80px;
+    border-color: black;
+    background-color: white;
+
+}
+
+.pointsperclick{
+    color: white;
+    font-size: 30px;
+}
