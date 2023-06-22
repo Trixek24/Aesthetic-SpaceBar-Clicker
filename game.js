@@ -27,6 +27,7 @@ function plus1Point()
     if(score >= 500)
     {
         ppc = ppc + 1;
+        document.getElementById("ppc").innerHTML = ppc;
         console.log("Points Per Second is "+ ppc)
         score = score - 500;
         return;
@@ -37,4 +38,17 @@ function plus1Point()
         return;
     }
 
+}
+//color changing//
+function red()
+{
+    document.body.style.backgroundColor = "red";
+}
+function yellow()
+{
+    document.body.style.backgroundColor = "yellow";
+}
+function blue()
+{
+    document.body.style.backgroundColor = "blue";
 }
